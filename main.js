@@ -9,12 +9,12 @@ var hash={
     'q':'qq.com',
     'w':'weibo.com',
     'e':'yahoo.com',
-    'r':'qq.com',
-    't':'tecent.com',
-    'y':'qq.com',
-    'u':'qq.com',
+    'r':'runoob.com',
+    't':'tencent.com',
+    'y':'yy.com',
+    'u':'uc.cn',
     'i':'iqiyi.com',
-    'o':'qq.com',
+    'o':'oppo.com',
 }
 var hashINlocalstorage = JSON.parse(localStorage.getItem('info')||'null')
 if (hashINlocalstorage){
