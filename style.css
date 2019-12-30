@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+kbd{
+    border: 1px solid red;
+    width: 80px;
+    height: 64px;
+    display: inline-block;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#292929 0%,#111111 100%);
+    border: 1px solid #373737;
+    color: #c5c5c5;
+    box-shadow: 0 0 0 1px #1a1b1c, 0 0 0 2px #1f2020, 0 3px 0 2px #080808;
+    margin: 15px 10px;
+    font-family: hevetica;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+main{
+    text-align: center;
+}
+.wrapper {
+    margin-top: 20px;
+}
+body{
+    background:grey url(./wall.jpg) no-repeat center center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1200px;
+    height: 100vh;
+}
+
+button{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    border: 0px solid transparent;  
+    background-color:transparent;
+    color:#c5c5c5;
+    display: none;
+}
+kbd:hover > button{
+
+display: inline-block;
+
+}
+span{
+    position: absolute;
+    left:6px;
+    top: 6px;
+}
+kbd img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left:0px;
+    bottom:2px;
+}
