@@ -7,13 +7,13 @@ var keys ={
 }
 var hash={
     'q':'qq.com',
-    'w':'qq.com',
-    'e':'qq.com',
+    'w':'weibo.com',
+    'e':'yahoo.com',
     'r':'qq.com',
-    't':'qq.com',
+    't':'tecent.com',
     'y':'qq.com',
     'u':'qq.com',
-    'i':'qq.com',
+    'i':'iqiyi.com',
     'o':'qq.com',
 }
 var hashINlocalstorage = JSON.parse(localStorage.getItem('info')||'null')
